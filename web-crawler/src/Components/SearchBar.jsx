@@ -7,7 +7,7 @@ class SearchBar extends Component {
   };
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className="searchBar" onSubmit={this.handleSubmit}>
         <input onChange={this.handleChange} />
 
         <button type="button">hello</button>
@@ -23,7 +23,7 @@ class SearchBar extends Component {
   handleSubmit = e => {
     e.preventDefault();
     console.log(e);
-    // make axios get request to the url thats on this.state.input
+    // make axios get request to the url thats on this.state.input and then set the state back to ''
   };
 }
 

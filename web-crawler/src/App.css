@@ -1,3 +1,22 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: 2fr, 1fr, 7fr;
+}
+
+.mainDisplayer {
+  margin: auto;
+  border: 4px double black;
+  width: 60%;
+}
+.searchBar {
+  padding-bottom: 3%;
+}
+
+.header {
+  padding-top: 5%;
+}
+#logo {
+  width: 30vh;
+  height: auto;
 }
